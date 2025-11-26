@@ -1,0 +1,19 @@
+{
+  "name": "utm-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "node --watch ./src/server.js",
+    "migrate": "node ./src/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "@turf/turf": "^6.5.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
+  }
+}
