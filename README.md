@@ -2,7 +2,7 @@
 
 ## Setup
 1. Extract this folder.
-2. Create `.env` from `.env.example` and fill DB credentials (MySQL with your UTMEurope3 schema).
+2. Create `.env` from `.env.example` and fill DB credentials (MySQL with UTMEurope3 schema).
 3. Install and migrate:
    ```
    npm install
