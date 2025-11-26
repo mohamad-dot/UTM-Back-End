@@ -16,7 +16,7 @@ The server runs on `http://localhost:8787` and automatically ingests:
 
 ## Endpoints
 - `GET /v1/zones?bbox=w,s,e,n&time=YYYY-MM-DD hh:mm:ss`
-- `GET /v1/notams?...` (placeholder; add when you have a NOTAM feed)
+- `GET /v1/notams?...` (placeholder; )
 - `GET /v1/weather?...` (placeholder)
 - `POST /v1/flight-requests` → approve / rejected / alternative
 
