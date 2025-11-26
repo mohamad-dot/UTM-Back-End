@@ -21,7 +21,7 @@ The server runs on `http://localhost:8787` and automatically ingests:
 - `POST /v1/flight-requests` → approve / rejected / alternative
 
 ## Frontend
-Set your React app `.env` to:
+ React app `.env` :
 ```
 VITE_MOCK_DATA=false
 VITE_API_BASE=http://localhost:8787
